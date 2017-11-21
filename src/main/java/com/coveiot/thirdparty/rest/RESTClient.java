@@ -30,7 +30,7 @@ public class RESTClient {
 
 		StringBuilder builder = new StringBuilder();
 		builder.append("https://samples.openweathermap.org/data/2.5/weather?zip=");
-		builder.append(84848);
+		builder.append(zip);
 		builder.append(",us&appid=b1b15e88fa797225412429c1c50c122a1");
 
 		String weatherData = restTemplate.getForObject(builder.toString(), String.class);
