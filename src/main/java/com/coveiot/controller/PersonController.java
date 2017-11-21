@@ -19,14 +19,14 @@ import com.coveiot.service.PersonService;
 import com.coveiot.utils.CoveiotConstants;
 import com.coveiot.utils.StringUtils;
 
+/**
+ * 
+ * @author VENUGOPAL
+ *
+ */
+
 @RestController
 public class PersonController {
-
-	/**
-	 * 
-	 * @author VENUGOPAL
-	 *
-	 */
 
 	@Autowired
 	private PersonService personService;

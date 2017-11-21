@@ -9,7 +9,7 @@ Software used.
 4.  H2 InMemory database
 4.  Apache REST client
 
-Application can be validated below areas:-
+Application can be validated with  the below areas:-
 
 1. Create a restful api for user registration with following fields.
 
@@ -23,7 +23,7 @@ Application can be validated below areas:-
 		
 3. User opens given login-link. If login-link is valid and not expired. Show user details. 
 
-	User can get the url from his registered email which is generated with login request.
+	User can get the url from the previous registered user's email which is generated with login request.
 	
 4. Create a restful api to get current temperature by pincode 
 
